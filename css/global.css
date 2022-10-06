@@ -1,3 +1,47 @@
 *{
     font-family: 'Verdana';
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Site header */
+
+.site-header{
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+}
+
+.site-header__logo{
+    columns: #335576;
+    text-decoration: none;
+    
+}
+
+.site-header__nav{
+    display: inline-block;
+    
+}
+
+.site-header__nav-link{
+
+    padding: 1rem;
+}
+
+.site-header__nav-link a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.site-header__nav--active-page{
+    
+    border-bottom: 0.3rem solid #DB7A4E;
+
+}
+
+.hero{
+    background-color: #FEFAF5;
 }

@@ -56,7 +56,6 @@ table {
   box-sizing: border-box;
 }
 
-/* Site header */
 * {
   box-sizing: border-box;
 }
@@ -121,7 +120,61 @@ table {
   border-bottom: 0.2rem solid #DB7A4E;
 }
 
-/* Hero Banner */
+.site-footer {
+  background-color: #FEFAF5;
+  padding: 2rem 9.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.site-footer__contact-section {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer__hours-section {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer__social-section {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer__heading {
+  color: #335576;
+}
+
+.site-footer__subheading {
+  color: #DB7A4E;
+  font-size: 0.6875rem;
+}
+
+.site-footer__info {
+  color: #335576;
+}
+
+.site-footer__hours {
+  display: inline-block;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.site-footer__social-logos {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0 2rem 0;
+}
+
+.site-footer__social-logo {
+  margin-right: 2.5rem;
+}
+
 .hero {
   background-color: #FEFAF5;
   padding: 4rem 4rem 2rem 4rem;
@@ -235,57 +288,49 @@ table {
   font-weight: 600;
 }
 
-.site-footer {
-  background-color: #FEFAF5;
-  padding: 2rem 9.5rem;
+.destination-page {
+  height: 55vh;
+  background-position: center;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.site-footer__contact-section {
-  display: inline-block;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
 }
 
-.site-footer__hours-section {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
+.destination-page--hawaii {
+  background-image: url(../assets/images/hawaii.jpg);
 }
 
-.site-footer__social-section {
-  display: inline-block;
-  align-items: center;
-  justify-content: space-between;
+.destination-page--iceland {
+  background-image: url(../assets/images/iceland.jpg);
 }
 
-.site-footer__heading {
-  color: #335576;
+.destination-page--greece {
+  background-image: url(../assets/images/greece.jpg);
 }
 
-.site-footer__subheading {
-  color: #DB7A4E;
-  font-size: 0.6875rem;
+.destination-page__header {
+  padding: 7rem;
+  color: #FFFFFF;
+  font-size: 2rem;
+  display: flex;
 }
 
-.site-footer__info {
-  color: #335576;
-}
-
-.site-footer__hours {
-  display: inline-block;
-  padding: 1rem 2rem 1rem 0;
-}
-
-.site-footer__social-logos {
+.itinerary {
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 3rem 0 2rem 0;
+  justify-content: center;
 }
 
-.site-footer__social-logo {
-  margin-right: 2.5rem;
+.itinerary-card {
+  background-color: #FFFFFF;
+  width: 20vw;
+}
+
+.itinerary-card__header {
+  padding: 0 3rem;
+  margin: 0 3rem;
 }/*# sourceMappingURL=style.css.map */

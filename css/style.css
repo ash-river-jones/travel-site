@@ -79,6 +79,7 @@ table {
 
 .site-header__logo-link {
   text-decoration: none;
+  font-size: 0.75rem;
 }
 
 .site-header__logo-message {
@@ -122,10 +123,11 @@ table {
 
 .site-footer {
   background-color: #FEFAF5;
-  padding: 2rem 9.5rem;
+  padding: 4rem, 15rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0 12rem;
 }
 
 .site-footer__contact-section {
@@ -148,6 +150,8 @@ table {
 
 .site-footer__heading {
   color: #335576;
+  font-size: 1.25rem;
+  margin: 3rem 0 0 0;
 }
 
 .site-footer__subheading {
@@ -157,6 +161,7 @@ table {
 
 .site-footer__info {
   color: #335576;
+  font-size: 0.875rem;
 }
 
 .site-footer__hours {
@@ -191,7 +196,7 @@ table {
   color: #335576;
   display: inline-block;
   margin: 2rem;
-  width: 50vw;
+  width: 40rem;
 }
 
 .hero__information-heading {
@@ -222,11 +227,11 @@ table {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 50vw;
+  width: 40rem;
 }
 
 .hero__logo-image {
-  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  padding: 2.5rem;
   height: 100%;
   width: 100%;
 }
@@ -237,6 +242,7 @@ table {
 
 .recommendations__header {
   color: #335576;
+  font-size: 1.375rem;
 }
 
 .card-section {
@@ -251,9 +257,9 @@ table {
   align-items: flex-end;
   height: 30vh;
   width: 21vw;
-  border-radius: 0.3125rem;
-  border: 0.0625rem solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card--hawaii {
@@ -289,7 +295,7 @@ table {
 }
 
 .destination-page {
-  height: 55vh;
+  height: 45rem;
   background-position: center;
   background-size: cover;
   -o-object-fit: cover;
@@ -313,24 +319,47 @@ table {
 }
 
 .destination-page__header {
-  padding: 7rem;
+  padding: 10rem 0 0 5rem;
   color: #FFFFFF;
   font-size: 2rem;
   display: flex;
 }
 
 .itinerary {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  padding: 0 4.5rem;
+  margin-bottom: 12.25rem;
+  width: 100vw;
 }
 
 .itinerary-card {
   background-color: #FFFFFF;
-  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 22.5rem;
+  width: 15.5rem;
+  border-radius: 5px;
+  margin: 0 1.25rem;
 }
 
 .itinerary-card__header {
-  padding: 0 3rem;
-  margin: 0 3rem;
+  padding: 0 4rem;
+  border-bottom: 2px solid black;
+  align-items: flex-start;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.itinerary-card__day {
+  margin: 1rem 0 0 0;
+}
+
+.itinerary-card__item {
+  list-style: none;
+  padding: 1rem 3rem;
+  margin: 0.75rem 0;
+  background-color: #FEFAF5;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

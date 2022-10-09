@@ -1,0 +1,233 @@
+@use './partials/reset';
+@use './partials/mixins' as *;
+@use './partials/variables' as *;
+
+
+/* Site header */
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+
+}
+
+.site-header{
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header__logo{
+    @include center-item;
+    color: #335576;
+    text-decoration: none;
+    margin: 0 3.35rem;
+}
+
+.site-header__logo-link{
+    text-decoration: none;
+}
+
+.site-header__logo-message{
+    color: #335576;
+    text-decoration: none;
+    justify-items: flex-start; 
+    font-weight: 900;   
+}
+
+.site-header__nav{
+    padding: 1rem;
+    margin-right: 4.25rem;
+}
+
+.site-header__nav-list{
+    display: inline-block;
+    flex-direction: row;
+    display: inline;
+    @include center-item;
+    margin-right: .75rem;
+}
+
+.site-header__nav-list a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.site-header__nav-link{
+    list-style: none;
+    margin: 0.25rem .5rem 0 0.5rem;
+    padding-bottom: .75rem;
+    list-style: none;
+    display: inline-block;
+}
+
+.site-header__nav-link--active-page{
+    border-bottom: 0.2rem solid #DB7A4E;
+}
+
+/* Hero Banner */
+
+.hero{
+    background-color: #FEFAF5;
+    padding: 4rem 4rem 2rem 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__information{
+    @include center-item;
+    color: #335576;
+    display: inline-block;
+    margin: 2rem;
+    width: 50vw;
+}
+
+.hero__information-heading{
+    @include center-item;
+    font-size: 2.25rem;
+    padding-bottom: .5rem
+}
+
+.hero__information-message{
+    @include center-item;
+    margin-bottom: 3rem;
+    font-size: .825rem;
+    
+}
+
+.hero__information-btn{
+    background-color: #DB7A4E;
+    border-radius: 2rem;
+    color: #FFFFFF;
+    padding: .55rem 2.25rem;
+    font-weight: 100;
+    
+}
+
+    .hero__logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50vw;
+}
+
+.hero__logo-image{
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.recommendations{
+padding: 2rem 6rem;
+}
+
+.recommendations__header{
+    color: #335576;
+    // padding-left: ;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 4.5rem 3rem 4.5rem;
+}
+
+.card{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 30vh;
+    width: 21vw;
+    border-radius: .3125rem;
+    border: .0625rem solid rgb(0, 0, 0, 0.2);
+    box-shadow: 0 .25rem .25rem rgb(0, 0, 0, 0.2);  
+}
+
+.card--hawaii{
+    background: url(../assets/images/hawaii.jpg);
+    @include card-style;
+
+}
+
+.card--iceland{
+    background: url(../assets/images/iceland.jpg);
+    @include card-style;
+
+}
+
+.card--greece{
+    background: url(../assets/images/greece.jpg);
+    @include card-style;
+}
+
+.card__link{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.site-footer{
+    // @include center-item;
+    background-color: #FEFAF5;
+    padding: 2rem 9.5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.site-footer__contact-section{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-footer__hours-section{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-footer__social-section{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.site-footer__heading{
+    color: #335576;
+}
+
+.site-footer__subheading{
+    color: #DB7A4E;
+}
+
+.site-footer__info{
+    color: #335576;
+}
+
+.site-footer_hours{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.site-footer__social-logos{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer__social-logo{
+    height: 2vh;
+    padding: 0 3vw;
+}

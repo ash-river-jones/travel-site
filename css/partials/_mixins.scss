@@ -1,0 +1,11 @@
+@mixin center-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin card-style {
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}

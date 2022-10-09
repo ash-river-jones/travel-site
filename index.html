@@ -5,85 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel - Home</title>
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <!-- header/nav -->
-    <header class="site-header">
-        <nav class="site-header__nav">
+    <header class="header">
+        <nav class="site-header">
             <div class="site-header__logo">
-                <a href="./index.html"><h2>Travel Site</h2></a> 
+                <a href="./index.html" class="site-header__logo-link"><h2 class="site-header__logo-message">Travel Site</h2></a> 
             </div>
-            <div class="site-header__nav-links">
-                <ul>
-                    <li class="site-header__nav-links-link site-header__nav-links-link--active-page"><a href="./index.html">Home</a></li>
-                    <li class="site-header__nav-links-link"><a href="./pages/hawaii.html">Hawaii</a></li>
-                    <li class="site-header__nav-links-link"><a href="./pages/iceland.html">Iceland</a></li>
-                    <li class="site-header__nav-links-link"><a href="./pages/greece.html">Greece</a></li>
+            <div class="site-header__nav">
+                <ul class="site-header__nav-list">
+                    <li><a class="site-header__nav-link site-header__nav-link--active-page" href="./index.html">Home</a></li>
+                    <li><a class="site-header__nav-link" href="./pages/hawaii.html">Hawaii</a></li>
+                    <li><a class="site-header__nav-link" href="./pages/iceland.html">Iceland</a></li>
+                    <li><a class="site-header__nav-link" href="./pages/greece.html">Greece</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 <!-- Hero -->
     <section class="hero">
-        <div>
-            <h1>Travelling Comes With Endless Discoveries</h1>
-            <p>Don't let your dreams just be dreams. Experience the world by booking a vacation with us now.</p>
-            <a class="btn">Get started</a>
+        <div class="hero__information">
+            <h1 class="hero__information-heading">Travelling Comes With Endless Discoveries</h1>
+            <p class="hero__information-message">Don't let your dreams just be dreams. Experience the world by booking a vacation with us now.</p>
+            <a class="hero__information-btn">Get started</a>
         </div>
-        <div>
-            <img src="./assets/images/hero.png" alt="grey plane flying around the world with icon pin on hawaii">
+        <div class="hero__logo">
+            <img class="hero__logo-image" src="./assets/images/hero.png" alt="grey plane flying around the world with icon pin on hawaii">
         </div>
     </section>
 <!-- Recommendations -->
-    <main>
+    <main class="recommendations">
 
-        <h2>Recommendations</h2>
-
-        <div>
-            <h2>Hawaii</h2>
-        </div>
-        
-        <div>
-            <h2>Iceland</h2>
-        </div>        
-        
-        <div>
-            <h2>Greece</h2>
-        </div>
+        <h2 class="recommendations__header">Recommendations</h2>
+        <!-- Cards -->
+        <section class="card-section">
+            <div class="card card--hawaii">
+                <a class="card__link" href="./pages/hawaii.html">Hawaii</a>
+            </div>
+            
+            <div class="card card--iceland">
+                <a class="card__link" href="./pages/iceland.html">Iceland</a>
+            </div>        
+            
+            <div class="card card--greece">
+                <a class="card__link" href="./pages/greece.html">Greece</a>
+            </div>
+        </section>
 
     </main>
 <!-- Footer -->
-    <footer>
-        <div>
-            <h2>Contact</h2>
-            <p>Email</p>
-            <p>info@travelsite.com</p>
+    <footer class="site-footer">
+        <div class="site-footer__contact-section">
+            <h2 class="site-footer__heading">Contact</h2>
+            <p class="site-footer__subheading">Email</p>
+            <p class="site-footer__info">info@travelsite.com</p>
         </div>
 
-        <div>
-            <h2>Hours</h2>
-            <div>
-                <p>Monday - Friday</p>
-                <p>9:00 AM - 5:00 PM</p>
+        <div class="site-footer__hours-section">
+            <h2 class="site-footer__heading">Hours</h2>
+            <div class="site-footer_hours">
+                <p class="site-footer__subheading">Monday - Friday</p>
+                <p class="site-footer__info">9:00 AM - 5:00 PM</p>
             </div>
-            <div>
-                <p>Saturday</p>
-                <p>10:00 AM - 4:00 PM</p>
+            <div class="site-footer_hours">
+                <p class="site-footer__subheading">Saturday</p>
+                <p class="site-footer__info">10:00 AM - 4:00 PM</p>
             </div>
-            <div>
-                <p>Sunday</p>
-                <p>Closed</p>
+            <div class="site-footer_hours">
+                <p class="site-footer__subheading">Sunday</p>
+                <p class="site-footer__info">Closed</p>
             </div>
         </div>
 
-        <div>
-            <h2>Social</h2>
-            <div>
-                <a><img src="./assets/images/icon-instagram.png" alt="icon-instagram"></a>
-                <a><img src="./assets/images//icon-facebook.png" alt="icon-facebook"></a>
-                <a><img src="./assets/images/icon-twitter.png" alt="icon-twitter"></a>
+        <div class="site-footer__social-section">
+            <h2 class="site-footer__heading">Social</h2>
+            <div class="site-footer__social-logos">
+                <a href="https://www.instagram.com/"><img class="site-footer__social-logo" src="./assets/images/icon-instagram.png" alt="icon-instagram"></a>
+                <a href="https://www.facebook.com/"><img class="site-footer__social-logo" src="./assets/images//icon-facebook.png" alt="icon-facebook"></a>
+                <a href="https://twitter.com/"><img class="site-footer__social-logo" src="./assets/images/icon-twitter.png" alt="icon-twitter"></a>
             </div>
         </div>
     </footer>

@@ -48,12 +48,15 @@
     display: inline;
     @include center-item;
     margin-right: 0.75rem;
+    :hover {
+        border-bottom: 0.2rem solid #DB7A4E;
+        }
 }
 
 .site-header__nav-list a{
     text-decoration: none;
     color: black;
-    
+
 }
 
 .site-header__nav-link{
@@ -201,7 +204,7 @@ padding: 2rem 6rem;
 
 .card-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 1rem 4.5rem 3rem 4.5rem;
 }
 
@@ -209,11 +212,16 @@ padding: 2rem 6rem;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 30vh;
+    height: 23.75rem;
     width: 21vw;
+    width: 15.75rem;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0, 0.2);
-    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);  
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2); 
+    margin: 0 1.125rem;
+    :hover{
+        opacity: 80%;
+    }
 }
 
 .card--hawaii{

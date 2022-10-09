@@ -103,6 +103,9 @@ table {
   justify-content: center;
   margin-right: 0.75rem;
 }
+.site-header__nav-list :hover {
+  border-bottom: 0.2rem solid #DB7A4E;
+}
 
 .site-header__nav-list a {
   text-decoration: none;
@@ -247,7 +250,7 @@ table {
 
 .card-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 1rem 4.5rem 3rem 4.5rem;
 }
 
@@ -255,11 +258,16 @@ table {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  height: 30vh;
+  height: 23.75rem;
   width: 21vw;
+  width: 15.75rem;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 1.125rem;
+}
+.card :hover {
+  opacity: 80%;
 }
 
 .card--hawaii {

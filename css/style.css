@@ -259,7 +259,6 @@ table {
   display: inline-block;
   align-items: center;
   justify-content: space-between;
-  width: 20vw;
 }
 
 .site-footer__heading {
@@ -268,24 +267,25 @@ table {
 
 .site-footer__subheading {
   color: #DB7A4E;
+  font-size: 0.6875rem;
 }
 
 .site-footer__info {
   color: #335576;
 }
 
-.site-footer_hours {
+.site-footer__hours {
   display: inline-block;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 0;
 }
 
 .site-footer__social-logos {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+  padding: 3rem 0 2rem 0;
 }
 
 .site-footer__social-logo {
-  height: 2vh;
-  padding: 0 3vw;
+  margin-right: 2.5rem;
 }/*# sourceMappingURL=style.css.map */

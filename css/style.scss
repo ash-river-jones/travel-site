@@ -35,6 +35,9 @@
     text-decoration: none;
     justify-items: flex-start; 
     font-weight: 900;   
+    &:hover {
+        opacity: .8;
+        }
 }
 
 .site-header__nav{
@@ -48,9 +51,7 @@
     display: inline;
     @include center-item;
     margin-right: 0.75rem;
-    :hover {
-        border-bottom: 0.2rem solid #DB7A4E;
-        }
+
 }
 
 .site-header__nav-list a{
@@ -65,6 +66,9 @@
     padding-bottom: .75rem;
     list-style: none;
     display: inline-block;
+    &:hover {
+        border-bottom: 0.2rem solid #DB7A4E;
+        }
 }
 
 .site-header__nav-link--active-page{
@@ -130,7 +134,9 @@
 }
 
 .site-footer__social-logo-link{
-
+    &:hover{
+        opacity: .8;
+    }
 }
 
 .site-footer__social-logo{
@@ -175,7 +181,9 @@
     color: #FFFFFF;
     padding: .55rem 2.25rem;
     font-weight: 100;
-    
+    &:hover{
+        opacity: .8;
+    }
 }
 
 .hero__logo{
@@ -213,12 +221,14 @@ padding: 2rem 6rem;
     justify-content: flex-end;
     align-items: flex-end;
     height: 23.75rem;
-    width: 21vw;
     width: 15.75rem;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0, 0.2);
     box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2); 
     margin: 0 1.125rem;
+    &:hover{
+        opacity: .8;
+    }
 }
 
 .card--hawaii{
@@ -241,9 +251,13 @@ padding: 2rem 6rem;
 .card__link{
     color: #FFFFFF;
     text-decoration: none;
-    margin: 1.25rem;
+    padding-top: 21.5rem;
+    padding-right: 1rem;
     font-size: 1.25rem;
     font-weight: 600;
+    width: 15.75rem;
+    height: 23.75rem;
+    text-align: end;
 }
 
 // Destination page
